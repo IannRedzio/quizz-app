@@ -71,7 +71,7 @@ function App() {
           <div className="pyramid">
             <ul className="moneyList">
               {moneyPyramid.map((m) => (
-                <li
+                <li key={m.id}
                   className={
                     questionNumber === m.id
                       ? "moneyListItem active"
