@@ -23,7 +23,7 @@ const data = [
   },
   {
     id: 2,
-    question: "When did the website `Facebook` launch?",
+    question: "¿En que año se lanzó la pagina web Facebook?",
     answers: [
       {
         text: "2004",
@@ -45,7 +45,7 @@ const data = [
   },
   {
     id: 3,
-    question: "Who played the character of harry potter in movie?",
+    question: "¿Que actor protagonizó la pelicula Harry Potter?",
     answers: [
       {
         text: "Johnny Deep",
@@ -89,7 +89,8 @@ const data = [
   },
   {
     id: 5,
-    question: "En la tabla periódica de los elementos, ¿hay cuatro elementos diferentes cuyos nombres se basan en…?",
+    question:
+      "En la tabla periódica de los elementos, ¿hay cuatro elementos diferentes cuyos nombres se basan en…?",
     answers: [
       {
         text: "En el gato mascota de Antoine Lavoisier",
@@ -111,7 +112,8 @@ const data = [
   },
   {
     id: 6,
-    question: "¿Qué famosa estrella musical fue conocida como Baby Frances Gumm en la fase inicial de su carrera?",
+    question:
+      "¿Qué famosa estrella musical fue conocida como Baby Frances Gumm en la fase inicial de su carrera?",
     answers: [
       {
         text: "Ginger Rogers",
@@ -133,7 +135,8 @@ const data = [
   },
   {
     id: 7,
-    question: "¿En la corte de qué rey pasó Leonardo Da Vinci los dos últimos años de su vida?",
+    question:
+      "¿En la corte de qué rey pasó Leonardo Da Vinci los dos últimos años de su vida?",
     answers: [
       {
         text: "Enrique IV",
@@ -155,7 +158,8 @@ const data = [
   },
   {
     id: 8,
-    question: "La gente que tiene una reacción física importante hacia el arte hermoso, ¿qué tipo de síndrome sufre?",
+    question:
+      "La gente que tiene una reacción física importante hacia el arte hermoso, ¿qué tipo de síndrome sufre?",
     answers: [
       {
         text: "Síndrome de Proust",
@@ -177,7 +181,8 @@ const data = [
   },
   {
     id: 9,
-    question: "¿Cuál de los siguientes hombres no tiene un elemento químico llamado como él?",
+    question:
+      "¿Cuál de los siguientes hombres no tiene un elemento químico llamado como él?",
     answers: [
       {
         text: "Albert Einstein",
@@ -265,7 +270,8 @@ const data = [
   },
   {
     id: 13,
-    question: "¿Cuál de las siguientes razas caninas tiene ejemplares que alcanzan más peso con respecto a las démas?",
+    question:
+      "¿Cuál de las siguientes razas caninas tiene ejemplares que alcanzan más peso con respecto a las démas?",
     answers: [
       {
         text: "Terranova",
@@ -287,7 +293,8 @@ const data = [
   },
   {
     id: 14,
-    question: "¿Cuál es el gentilicio correspondiente a quien nació en Lesoto, Africa?",
+    question:
+      "¿Cuál es el gentilicio correspondiente a quien nació en Lesoto, Africa?",
     answers: [
       {
         text: "Lesoteño",

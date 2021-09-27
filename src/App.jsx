@@ -46,7 +46,7 @@ function App() {
         <>
           <div className="main">
             {timeOut ? (
-              <h1 className="endText">You earned: {earned}</h1>
+              <h1 className="endText">Ganaste: {earned}</h1>
             ) : (
               <>
                 <div className="top">
