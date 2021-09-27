@@ -1,7 +1,7 @@
 const data = [
   {
     id: 1,
-    question: "Rolex es una compania que se especializa en que producto?",
+    question: "Rolex es una compañía que se especializa en que producto?",
     answers: [
       {
         text: "Celulares",
