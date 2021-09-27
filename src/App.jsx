@@ -3,7 +3,7 @@ import data from "./common/data";
 import Start from "./components/Start";
 import Timer from "./components/Timer";
 import Trivia from "./components/Trivia";
-import "./app.css";
+import "./components/app.css";
 
 function App() {
   const [username, setUsername] = useState(null);
