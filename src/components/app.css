@@ -167,6 +167,23 @@
   margin: auto;
 }
 
+.playAgain {
+  border-radius: 5px;
+  width: 150px;
+  height: 40px;
+  position: relative;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  background: linear-gradient(#0e0124, #22074d);
+  color: white;
+  font-size: 18px;
+  border: 2px solid #0e0124;
+  cursor: pointer;
+}
+
 .start {
   width: 250px;
   height: 100px;
@@ -204,3 +221,4 @@
   font-size: 18px;
   font-weight: 500;
 }
+

@@ -10,6 +10,13 @@ function App() {
   const [timeOut, setTimeOut] = useState(false);
   const [questionNumber, setQuestionNumber] = useState(1);
   const [earned, setEarned] = useState("$ 0");
+  const [answerStyle, setAnswerStyle] = useState("answer");
+
+  const resetGame =() => {
+    setQuestionNumber(1)
+    setEarned("$ 0")
+    setTimeOut(false)
+  }
 
   const moneyPyramid = useMemo(
     () =>
@@ -46,7 +53,10 @@ function App() {
         <>
           <div className="main">
             {timeOut ? (
+              <>
               <h1 className="endText">Ganaste: {earned}</h1>
+              {answerStyle === "answer wrong" && <button className="playAgain" onClick={resetGame}>Jugar de nuevo</button>}
+              </>
             ) : (
               <>
                 <div className="top">
@@ -63,6 +73,8 @@ function App() {
                     questionNumber={questionNumber}
                     setQuestionNumber={setQuestionNumber}
                     setTimeOut={setTimeOut}
+                    answerStyle={answerStyle}
+                    setAnswerStyle={setAnswerStyle}
                   />
                 </div>
               </>
